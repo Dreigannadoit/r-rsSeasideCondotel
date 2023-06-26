@@ -26,14 +26,9 @@ section {
   width: 100%;
 }
 
-html,
-body {
-  overflow: hidden;
+body,
+section {
   overflow-x: hidden;
-}
-
-body {
-  overflow-y: scroll;
 }
 
 body.active {
