@@ -409,7 +409,7 @@
 
 @media only screen and (max-height: 800px) and (max-width: 580px) {
   .fac {
-    height: 105%;
+    height: 110%;
     padding: 0 7%;
     overflow-x: visible;
   }
