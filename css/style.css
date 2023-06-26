@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* color pallet */
+  --dark-blue-color: #03045E;
+  --side-blue-color: #0077B6;
+  --highlight-blue-color: #00B4D8;
+  --contrast-blue-color: #90E0EF;
+  --bg-blue-color: #CAF0F8;
+
+  --font-fam-header: 'Playfair Display', serif;
+  --font-fam-secondary: 'Montserrat', sans-serif;
+}
+
+html,
+body,
+.wrapper,
+.content,
+section {
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body {
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+@media only screen and (max-height: 700px) and (max-width: 900px) {
+
+  html,
+  body,
+  .wrapper,
+  .content,
+  section {
+    height: 105%;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-height: 600px) and (max-width: 900px) {
+
+  html,
+  body,
+  .wrapper,
+  .content,
+  section {
+    height: 110%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-height: 500px) and (max-width: 900px) {
+
+  html,
+  body,
+  .wrapper,
+  .content,
+  section {
+    height: 115%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-height: 400px) and (max-width: 900px) {
+
+  html,
+  body,
+  .wrapper,
+  .content,
+  section {
+    height: 120%;
+    width: 100%;
+  }
+
+}
+
+
+
+.content::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30%;
+
+  background: var(--side-blue-color);
+  z-index: -5;
+}
+
+.content::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  background-image: url(../img/bg.jpg);
+  z-index: -1;
+  filter: grayscale(100%);
+  opacity: 0.025;
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .content::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+
+    background: var(--side-blue-color);
+    z-index: -1;
+  }
+
+}
+
+section {
+  position: relative;
+}
+
+
+.screen-size {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 180px;
+  padding: 2%;
+  z-index: 99999999999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  background-color: var(--bg-color-secondary);
+  color: var(--bg-color-main);
+}
