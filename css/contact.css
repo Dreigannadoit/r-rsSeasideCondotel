@@ -252,14 +252,14 @@
 
 @media only screen and (max-height: 950px) and (max-width: 580px) {
   .con {
-    height: 230%;
+    height: 250%;
     background: #fff;
-    padding: 0 7%;
+    padding: 0 2%;
   }
 
 
   .con .con-content .request {
-    height: 45%;
+    height: 47%;
     width: 100%;
     padding-right: 0%;
 
