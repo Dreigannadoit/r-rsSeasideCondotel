@@ -31,10 +31,22 @@
   width: 100%;
 }
 
+.con .con-content .request .header h2 {
+  font-size: 1rem;
+  font-family: var(--font-fam-header);
+  color: var(--side-blue-color);
+  text-transform: uppercase;
+  line-height: 50%
+}
+
 .con .con-content .request .header h1 {
   font-size: 2.5rem;
   font-family: var(--font-fam-header);
   color: var(--side-blue-color);
+}
+
+.con .con-content .request .header h1 span {
+  font-family: var(--font-fam-nonPrim);
 }
 
 .con .con-content .request .header p {

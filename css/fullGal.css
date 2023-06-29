@@ -54,6 +54,7 @@
   width: 50%;
   padding: 2%;
   overflow: hidden;
+  transition: all 300ms ease;
 }
 
 .full-gal-content a img {
@@ -61,9 +62,15 @@
   width: 100%;
   object-fit: cover;
   border-radius: 15px;
+  border: 1px solid transparent;
 
-  transition: all 300ms ease;
+  transition: all 200ms ease;
 }
+
+.full-gal-content a:hover img {
+  border: 5px solid var(--dark-blue-color);
+}
+
 
 @media only screen and (max-width: 1000px) {
   .full-gal-content a {
