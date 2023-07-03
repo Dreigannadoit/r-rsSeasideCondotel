@@ -198,3 +198,10 @@
 .rvu-content .slide .bottom p {
   font-size: 13px;
 }
+
+@media only screen and (max-height: 750px) {
+  .rvu {
+    height: 110%;
+    background: var(--bg-blue-color);
+  }
+}

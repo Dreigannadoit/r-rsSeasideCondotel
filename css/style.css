@@ -135,6 +135,34 @@ section {
 }
 
 
+#fb-con {
+  position: fixed;
+  bottom: 4%;
+  right: 4%;
+
+  height: 60px;
+  width: 60px;
+  background: var(--dark-blue-color);
+  border-radius: 100%;
+  overflow: hidden;
+
+  z-index: 99999999999999999;
+}
+
+#fb-con a {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+
+  font-size: 30px;
+}
+
+
+
 .screen-size {
   position: fixed;
   bottom: 0;

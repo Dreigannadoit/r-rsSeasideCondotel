@@ -84,8 +84,8 @@
 
 .con .con-content form .s-con>div input {
   width: 100%;
-  height: 100%;
-  padding: 1% 5%;
+  height: 90%;
+  padding: 0% 2%;
   font-family: var(--font-fam-secondary);
   border: none;
   border-top: transparent 2px solid;
@@ -96,7 +96,8 @@
 }
 
 .con .con-content form .s-con>div input:focus {
-  height: 80%;
+  padding: 1% 5%;
+  height: 100%;
   border-top: var(--side-blue-color) 2px solid;
   border-right: var(--side-blue-color) 2px solid;
   border-left: var(--side-blue-color) 2px solid;
@@ -148,6 +149,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-family: var(--font-fam-secondary);
 }
 
 .con .con-content form .book .n-con label {
@@ -158,16 +160,18 @@
 .con .con-content form .book .n-con input {
   height: 60%;
   width: 100%;
+  padding: 0 0px;
   border: none;
   border-top: var(--side-blue-color) 2px solid;
   border-right: transparent 2px solid;
   border-left: transparent 2px solid;
   border-bottom: var(--side-blue-color) 2px solid;
-  margin-left: 2%;
+  font-family: var(--font-fam-secondary);
   transition: all 450ms ease;
 }
 
 .con .con-content form .book .n-con input:focus {
+  padding: 0 3px;
   border-top: var(--side-blue-color) 2px solid;
   border-right: var(--side-blue-color) 2px solid;
   border-left: var(--side-blue-color) 2px solid;
@@ -246,20 +250,52 @@
   width: 100%;
 }
 
-.con .con-content .location .con-loc-content .talk {
+
+
+
+.con .con-content .location .con-loc-content .find-media {
   height: 25%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.con .con-content .location .con-loc-content .find-media .social {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.con .con-content .location .con-loc-content .find-media .social h1 {
+  font-size: 16px;
+}
+
+.con .con-content .location .con-loc-content .find-media .social a {
+  margin-top: 5%;
+  font-size: 30px;
+  color: #fff;
+}
+
+.con .con-content .location .con-loc-content .find-media .talk {
+  height: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
-.con .con-content .location .con-loc-content .talk h1 {
+.con .con-content .location .con-loc-content .find-media .talk h1 {
   font-size: 16px;
 }
 
-.con .con-content .location .con-loc-content .talk h4,
-.con .con-content .location .con-loc-content .talk p {
+.con .con-content .location .con-loc-content .find-media .talk h4,
+.con .con-content .location .con-loc-content .find-media .talk p {
   font-size: 14px;
 }
 
