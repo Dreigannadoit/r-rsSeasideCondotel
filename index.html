@@ -54,14 +54,13 @@
   <link rel="stylesheet" type="text/css" href="./css/gal.css">
   <link rel="stylesheet" type="text/css" href="./css/fullGal.css">
   <link rel="stylesheet" type="text/css" href="./css/footer.css">
-
 </head>
 <body id="body">
-  <!-- <div class="screen-size">
+  <div class="screen-size">
     <span id="width" >0px</span>
     ,
     <span id="height">0px</span>
-  </div> -->
+  </div>
 
   <div class="wrapper">
     <!-- nav when full screen -->
@@ -855,7 +854,7 @@
               <h2>Contact us</h2>
               <h1>FOR BOOKINGS <span>&</span> INQUIRIES</h1>
 
-              <p>If you have anu inquiries about our establishment, then, please feel free to contact  us any time and we will respond immediately</p>
+              <p>If you have anu inquiries about our establishment, then, please feel free to contact  us any time and we will respond within 24 hours</p>
             </div>
 
             <form action="https://formsubmit.co/83a60621020dbda255dcda9da12393b6" method="POST">
@@ -888,7 +887,7 @@
       
                 <div class="phone-con n-con">
                   <label for="phoneNumber" class="form-label">Phone Number</label>
-                  <input type="text" class="form-control" name="Phone" id="phoneNumber" placeholder="Phone Numbe">
+                  <input type="text" class="form-control" name="Phone" id="phoneNumber" placeholder="Phone Number">
                 </div>
       
               </div>
@@ -896,6 +895,26 @@
               <div class="comments-con">
                 <label for="comments" class="form-label">Comments, questions?</label>
                 <textarea class="form-control" id="comments" name="Comments,&nbsp;Questions" rows="3" required></textarea>
+              </div>
+
+              <div class="book">
+                <div class="CheckIn-con n-con">
+                  <label for="CheckIn" class="form-label">Check In*</label>
+
+                  <input type="date" class="form-control" name="Check-In" id="CheckIn-input" >
+                </div>
+
+                <div class="CheckOut-con n-con">
+                  <label for="CheckOut" class="form-label">Check Out*</label>
+
+                  <input type="date" class="form-control" name="Check-Out" id="CheckOut-input" >
+
+                </div>
+
+                <div class="quntityGuest-con n-con">
+                  <label for="quantity">Guests* (Max: 5)</label>
+                  <input type="number" id="quantity" name="quantity" min="1" max="5">
+                </div>
               </div>
 
               <div class="btn-con">
@@ -995,7 +1014,7 @@
               <h1>Social Links</h1>
               <a href="https://www.facebook.com/RRCondotel" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             </div>
-
+            <br>
             <div class="f-num">
               <h1>Talk to us</h1>
               <br>
@@ -1009,7 +1028,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <!-- <script>
+  <script>
     var w,
         h,
         widthDisplay, 
@@ -1025,8 +1044,11 @@
       heightDisplay.innerHTML = `H: ${h}`;
     }
         
-  </script> -->
+  </script>
+
+  <script src="./js/date.js"></script>
   <script src="./js/slider.js"></script>
   <script src="./js/app.js"></script>
+
 </body>
 </html>

@@ -148,4 +148,9 @@ footer .fotter-content .f-contact .f-social a {
     align-items: center;
     flex-direction: column;
   }
+
+  footer .fotter-content .f-contact {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

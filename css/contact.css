@@ -1,5 +1,5 @@
 .con {
-  height: 90%;
+  height: 100%;
   background: #fff;
   padding: 0 7%;
 }
@@ -16,7 +16,7 @@
 
 
 .con .con-content .request {
-  height: 95%;
+  height: 60%;
   width: 55%;
   padding-right: 5%;
 
@@ -27,7 +27,7 @@
 }
 
 .con .con-content .request .header {
-  height: 27%;
+  height: 30%;
   width: 100%;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .con .con-content form {
-  height: 45%;
+  height: 70%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@
 
 .con .con-content form .s-con>div {
   width: 48%;
-  height: 50px;
+  height: 40px;
 
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@
   gap: 5%;
 }
 
-.con .con-content form .comments-con textarea {
+.con .comments-con textarea {
   width: 100%;
   height: 100%;
   font-family: var(--font-fam-secondary);
@@ -134,8 +134,52 @@
   outline: none
 }
 
+.con .con-content form .book {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.con .con-content form .book .n-con {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.con .con-content form .book .n-con label {
+  height: 40%;
+  font-size: 14px;
+}
+
+.con .con-content form .book .n-con input {
+  height: 60%;
+  width: 100%;
+  border: none;
+  border-top: var(--side-blue-color) 2px solid;
+  border-right: transparent 2px solid;
+  border-left: transparent 2px solid;
+  border-bottom: var(--side-blue-color) 2px solid;
+  margin-left: 2%;
+  transition: all 450ms ease;
+}
+
+.con .con-content form .book .n-con input:focus {
+  border-top: var(--side-blue-color) 2px solid;
+  border-right: var(--side-blue-color) 2px solid;
+  border-left: var(--side-blue-color) 2px solid;
+  border-bottom: var(--side-blue-color) 2px solid;
+  outline: none
+}
+
+
+
+
 .con .con-content form .btn-con {
-  height: 15%;
+  height: 25%;
   width: 100%;
 
   display: flex;
@@ -237,6 +281,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
   }
 
 
@@ -262,6 +307,14 @@
 }
 
 
+
+@media only screen and (max-width: 1450px) {
+  .con .con-content form .book .n-con {
+    flex-direction: column;
+  }
+}
+
+
 @media only screen and (max-height: 950px) and (max-width: 580px) {
   .con {
     height: 250%;
@@ -280,6 +333,16 @@
     justify-content: center;
     align-items: center;
   }
+
+  .con .con-content form .btn-con {
+    height: 15%;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
 
   .con .con-content .location {
     height: 50%;
