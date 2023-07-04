@@ -387,3 +387,47 @@
     background: var(--side-blue-color);
   }
 }
+
+
+
+@media only screen and (max-height: 700px) {
+  .con {
+    height: 115%;
+  }
+}
+
+@media only screen and (max-height:600px) {
+  .con {
+    height: 135%;
+  }
+}
+
+@media only screen and (max-height:500px) {
+  .con {
+    height: 155%;
+  }
+}
+
+@media only screen and (max-height:450px) {
+  .con {
+    height: 175%;
+  }
+}
+
+@media only screen and (max-height:400px) {
+  .con {
+    height: 185%;
+  }
+}
+
+@media only screen and (max-height:350px) {
+  .con {
+    height: 215%;
+  }
+}
+
+@media only screen and (max-height:300px) {
+  .con {
+    height: 235%;
+  }
+}

@@ -1,6 +1,6 @@
 .about {
   height: 90%;
-  overflow: none;
+  overflow: hidden;
 }
 
 .a-content {
@@ -254,5 +254,19 @@
   .about {
     height: 140%;
     overflow: none;
+  }
+}
+
+
+
+@media only screen and (max-height: 550px) {
+  .about {
+    height: 150%;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .about {
+    height: 200%;
   }
 }

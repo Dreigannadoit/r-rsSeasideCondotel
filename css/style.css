@@ -87,7 +87,6 @@ body.active {
 }
 
 
-
 .content::before {
   content: "";
   position: fixed;

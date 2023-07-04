@@ -141,11 +141,12 @@
 
 .rvu-content .slide .top .guest .details h1 {
   font-family: var(--font-fam-header);
+  font-size: 16px;
 }
 
 .rvu-content .slide .top .guest .details p {
   font-family: var(--font-fam-secondary);
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .rvu-content .slide .top .rating {
@@ -159,16 +160,39 @@
   gap: 10%;
 }
 
+.rvu-content .swiper-slide:nth-child(1) .slide .top .rating {
+  height: 100%;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10%;
+}
+
+/* default logo size */
 .rvu-content .slide .top .rating img:nth-child(1) {
   height: 50%;
 }
 
-.rvu-content .swiper-slide:nth-child(5) .slide .top .rating img:nth-child(1),
-.rvu-content .swiper-slide:nth-child(6) .slide .top .rating img:nth-child(1) {
+
+/* facebook rating */
+.rvu-content .swiper-slide:nth-child(1) .slide .top .rating img {
+  height: 30%;
+}
+
+
+/* agoda logo size */
+.rvu-content .swiper-slide:nth-child(6) .slide .top .rating img:nth-child(1),
+.rvu-content .swiper-slide:nth-child(7) .slide .top .rating img:nth-child(1) {
   height: 40%;
   width: 80%;
 }
 
+
+
+/* default rating size */
 .rvu-content .slide .top .rating img:nth-child(2) {
   height: 30%;
 }
@@ -201,7 +225,36 @@
 
 @media only screen and (max-height: 750px) {
   .rvu {
-    height: 110%;
-    background: var(--bg-blue-color);
+    height: 115%;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .rvu {
+    height: 145%;
+  }
+}
+
+@media only screen and (max-height: 550px) {
+  .rvu {
+    height: 165%;
+  }
+}
+
+@media only screen and (max-height: 450px) {
+  .rvu {
+    height: 195%;
+  }
+}
+
+@media only screen and (max-height: 320px) {
+  .rvu {
+    height: 225%;
+  }
+}
+
+@media only screen and (max-height: 280px) {
+  .rvu {
+    height: 265%;
   }
 }

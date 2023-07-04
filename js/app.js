@@ -1,3 +1,5 @@
+console.log("AAAAAAAHHHHHH!!!!! WHY ARE YOU LOOKING HERE???!!!!");
+
 const body = document.getElementById("body");
 
 const nav = document.getElementById("nav");

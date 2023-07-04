@@ -45,6 +45,7 @@ footer .fotter-content .f-about h1 {
 
 footer .fotter-content .f-about p {
   margin: 5% 0;
+  text-align: justify;
 }
 
 footer .fotter-content .f-about a {

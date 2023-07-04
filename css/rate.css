@@ -464,3 +464,34 @@
     gap: 3%;
   }
 }
+
+
+@media only screen and (max-height: 730px) {
+  .find {
+    height: 150%;
+  }
+}
+
+@media only screen and (max-height: 650px) {
+  .find {
+    height: 200%;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  .find {
+    height: 240%;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  .find {
+    height: 280%;
+  }
+}
+
+@media only screen and (max-height: 350px) {
+  .find {
+    height: 340%;
+  }
+}
