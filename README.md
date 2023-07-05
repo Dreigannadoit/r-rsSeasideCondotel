@@ -17,3 +17,9 @@ July 04, 2023
 - Updated height responsiveness for the facilities, about, find us, and contact sections
 - add a new testimonial by Wondermom
 - readjusted code for the testimonial section
+
+July 05, 2023
+- Updated Navigation UX
+- Updated Stikky advert sticker to disappear when fb link is part of the section content
+- 
+
