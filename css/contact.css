@@ -1,3 +1,8 @@
+/* 
+Code made by Robert Bamba 
+https://github.com/Dreigannadoit
+*/
+
 .con {
   height: 100%;
   background: #fff;
@@ -388,7 +393,11 @@
   }
 }
 
-
+@media only screen and (max-height: 750px) {
+  .con {
+    height: 110%;
+  }
+}
 
 @media only screen and (max-height: 700px) {
   .con {
