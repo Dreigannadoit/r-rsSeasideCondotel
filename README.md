@@ -23,3 +23,6 @@ July 05, 2023
 - Updated Stikky advert sticker to disappear when fb link is part of the section content
 - 
 
+To Do:
+Update rules section
+Add keep the apartment clean
